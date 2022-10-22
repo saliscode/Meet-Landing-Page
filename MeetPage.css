@@ -48,9 +48,10 @@ header {
     justify-content: center;
     align-items: center;
     width: 33%;
-    padding-top: 25px;
+    height: 43%;
+    padding: 0px 35px 0px 15px;
     background-color: yellow;
-    font-size: x-large;
+    size: 40%;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
@@ -90,7 +91,7 @@ header {
     background-color: rgb(233, 164, 248);
 }
 
-@media(max-width: 800px) {
+@media screen and (max-width: 535px) {
 
     .head-text {
         display: none;
@@ -104,6 +105,17 @@ header {
     }
 
 } 
+div.head-text-hidden{
+    background-color: white;
+    text-align: center;
+    width: 50%;
+    /* height: 20%; */
+}
+@media screen and (min-width: 418px) {
+    div.head-text-hidden{
+        display: none;
+    }
+}
 
 
 
@@ -179,9 +191,9 @@ section{
 
 
 .body-images {
-    width: 135px;
+    width: 130px;
     height: 150px;
-    margin: 0px 5px 7px 0px;
+    margin: 0px 5px 7px 5px;
     /* margin-left: 4px; */
 }
 
