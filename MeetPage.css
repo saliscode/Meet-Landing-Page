@@ -7,6 +7,9 @@ body {
 
 }
 
+
+/* Page banner- logo, banner image, banner text */
+
 header {
     width: 100%;
 }
@@ -106,20 +109,12 @@ header {
     .right-head-image{
         width: 50%;
     }
-
 } 
-div.head-text-hidden{
-    text-align: center;
-    width: 60%;
-    padding-right: 8px;
-    font-family: 'Red Hat Display';font-size: 18px;    
+/* Page banner styling ends here... */
 
-}
-@media screen and (min-width: 418px) {
-    div.head-text-hidden{
-        display: none;
-    }
-}
+
+
+/* Main body; contains 4 images,body text, number 1 and hidden text */
 
 main {
     display: flex;
@@ -148,28 +143,18 @@ main {
     padding-bottom: 60px;
 }
 
-.number2{
-    background-color: white;
-    display: flex;
-    width: 29px;
-    justify-content: center;
-    padding-top: 4px;
-    height: 25px;
-    border-radius: 30px;
+div.head-text-hidden{
     text-align: center;
-    font-size: 15px;
-    padding-bottom: 0px;
-    box-shadow: 0px 1px 5px rgba(0,0,0,0.7);
-    margin-bottom: -12px;    
-    z-index: 2;
-}
+    width: 60%;
+    padding-right: 8px;
+    font-family: 'Red Hat Display';font-size: 18px;    
 
-.number2-con{
-    display: flex;
-    justify-content: center;
-    
 }
-
+@media screen and (min-width: 418px) {
+    div.head-text-hidden{
+        display: none;
+    }
+}
 
 .four-images {
     display: flex;
@@ -219,6 +204,39 @@ section{
     height: 100%;
     border-radius: 5px;
 }
+
+
+
+
+/* Main body ends here.... */
+
+
+
+.number2{
+    background-color: white;
+    display: flex;
+    width: 29px;
+    justify-content: center;
+    padding-top: 4px;
+    height: 25px;
+    border-radius: 30px;
+    text-align: center;
+    font-size: 15px;
+    padding-bottom: 0px;
+    box-shadow: 0px 1px 5px rgba(0,0,0,0.7);
+    margin-bottom: -12px;    
+    z-index: 2;
+}
+
+.number2-con{
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+
+/* footer contains hero image, and 3 sections of the footer with text... */
 
 footer {
     display: grid;
