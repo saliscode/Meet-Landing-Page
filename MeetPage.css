@@ -75,7 +75,7 @@ header {
 .download-btn {
     background-color: rgb(77, 150, 168);
     border-radius: 26px;
-    width: 190px;
+    width: 195px;
     height: 40px;
     border: 0px;
     color: white;
@@ -121,7 +121,6 @@ header {
 
 } 
 div.head-text-hidden{
-    background-color: red;
     text-align: center;
     width: 60%;
     padding-right: 8px;
@@ -267,26 +266,39 @@ footer {
 }
 .footer-section{
     grid-area: left;
-    /* background-color: blue; */
-    width: 33vw;
+    width: 36vw;
     display: flex;
     justify-content: center;
+    align-items: center;
     color: white;
-    font-family: 'Red Hat Display';font-size: 35px;
+    font-family: 'Red Hat Display';font-size: 33px;
     font-weight: bold;
+}
+.footer-text1{
+    padding: 5px 70px 5px 70px;
 }
 
 .footer-section2{
     grid-area: middle;
-    width: 34vw;
+    width: 28vw;
+    display: flex;
     justify-content: center;
+    align-items: center;
     color: white;
     font-family: 'Red Hat Display';font-size: 14px;
 }
+
+#foooter-text2{
+    padding: 10px 70px 10px 70px;
+}
+
 .footer-section3{
     grid-area: right;
-    width: 33vw;
+    width: 36vw;
+    padding-bottom: 30px;
+    display: flex;
     justify-content: center;
+    align-items: center;
     font-family: 'Red Hat Display';
 }
 
