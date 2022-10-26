@@ -1,14 +1,11 @@
 html,
 body {
-    /* background-color: orangered; */
     width: 100%;
     margin: 0px;
     padding: 0px;
     height: 100%;
 
-    /* box-sizing: border-box; */
 }
-
 
 header {
     width: 100%;
@@ -18,7 +15,6 @@ header {
     margin: auto;
     width: auto;
     background-color: #fafafa;
-    /* border: 3px solid #73AD21; */
     padding-top: 13px;
     height: 10%;
     text-align: center;
@@ -29,21 +25,17 @@ header {
     flex-direction: row;
     width: auto;
     padding-top: 15px;
-    /* height: 20%; */
     text-align: center;
     justify-content: center;
 }
 
 .left-head-image {
     width: 28.5%;
-    /* background-color: blueviolet; */
-
 }
-
 
 .right-head-image {
     width: 28.5%;
-    /* background-color: blueviolet; */
+
 }
 
 .head-text {
@@ -52,10 +44,6 @@ header {
     width: 43%;
     height: 40%;
     padding: 0px 34px 0px 19px;
-    /* margin: 0px 10px 0px 10px; */
-    /* background-color: yellow; */
-    /* size: 45%; */
-    /* color: black; */
     font-family: 'Red Hat Display';font-size: 31px;
 }
 
@@ -125,7 +113,7 @@ div.head-text-hidden{
     width: 60%;
     padding-right: 8px;
     font-family: 'Red Hat Display';font-size: 18px;    
-    /* height: 20%; */
+
 }
 @media screen and (min-width: 418px) {
     div.head-text-hidden{
@@ -133,20 +121,13 @@ div.head-text-hidden{
     }
 }
 
-
-
-
-
 main {
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    /* margin-top: 220px; */
     height: 100%;
-    /* background-color: aqua; */
-    /* position: absolute; */
-    /* z-index: 1; */
+
 }
 
 .number1 {
@@ -161,7 +142,6 @@ main {
 }
 
 .number1-con {
-    /* background-color: lightskyblue; */
     display: flex;
     justify-content: center;
     padding-top: 170px;
@@ -180,16 +160,13 @@ main {
     font-size: 15px;
     padding-bottom: 0px;
     box-shadow: 0px 1px 5px rgba(0,0,0,0.7);
-    /* padding-top: 4px; */
     margin-bottom: -12px;    
     z-index: 2;
 }
 
 .number2-con{
-    /* background-color: lightskyblue; */
     display: flex;
     justify-content: center;
-    /* padding-top: 5px; */
     
 }
 
@@ -198,7 +175,6 @@ main {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    /* background-color: slategrey; */
     justify-content: center;
 }
 
@@ -210,7 +186,6 @@ section{
     margin-bottom: 50px;
 }
 .section-con{
-    /* background-color: brown;     */
     height: auto;
     width: 70%;
     justify-content: center;
@@ -222,15 +197,12 @@ section{
     background-color: white;
 }
 
-
-
 .body-image-n-text {
     display: flex;
     flex-direction: column;
 }
 
 .body-head-text-con {
-    /* background-color: yellow; */
     justify-content: center;
     align-items: center;
 }
@@ -240,7 +212,6 @@ section{
     width: 130px;
     height: 150px;
     margin: 0px 5px 7px 5px;
-    /* margin-left: 4px; */
 }
 
 .body-images img {
@@ -249,19 +220,10 @@ section{
     border-radius: 5px;
 }
 
-
-
-
 footer {
     display: grid;
-    /* grid-template-columns: 33vw 34vw 33vw; */
     grid-template-areas: 'left left middle middle right right';
-    /* margin-top: 50px; */
     height: 400px;     
-    /* margin-top: -10px; */
-    /* justify-content: center; */
-    /* background-color: rgb(19, 134, 149); */
-    /* position: absolute; */
     z-index: 1;
 }
 .footer-section{
@@ -304,19 +266,13 @@ footer {
 
 .footer-hero{
     background-image: linear-gradient( rgba(32, 161, 193, 0.8), rgba(32, 161, 193, 0.8)), 
-    /* (rgba(143,227,249,0.7) */
     url("./desktopImages/image-footer.jpg");
-    /* height: 100%; */
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
     background-position: center;
     width: 100%;
 }
-
-
-
-
 
 .download-btn2 {
     background-color:  rgb(150, 88, 164);
