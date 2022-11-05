@@ -73,6 +73,7 @@ header {
     font-weight: bold;
     /* margin-right: 5px; */
     font-family: 'Red Hat Display';font-size: 13px;
+    cursor: pointer;
 }
 .inner{
     color:  rgb(67, 213, 226);
@@ -92,6 +93,7 @@ header {
     font-weight: bold;
     font-family: 'Red Hat Display';font-size: 14px;
     margin-left: 15px;
+    cursor: pointer;
 }
 .what-btn:hover{
     background-color: rgb(233, 164, 248);
