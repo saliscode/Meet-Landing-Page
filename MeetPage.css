@@ -47,7 +47,7 @@ header {
     width: 43%;
     height: 40%;
     padding: 0px 34px 0px 19px;
-    font-family: 'Red Hat Display';font-size: 31px;
+    font-family: 'Red Hat Display'; font-size: 31px;
 }
 
 
@@ -66,17 +66,18 @@ header {
 .download-btn {
     background-color: rgb(77, 150, 168);
     border-radius: 26px;
-    width: 195px;
+    width: 194px;
     height: 40px;
     border: 0px;
     color: white;
-    font-weight: bold;
-    /* margin-right: 5px; */
-    font-family: 'Red Hat Display';font-size: 13px;
+    font-weight: 900;
+    font-family: 'Red Hat Display';font-size: 16px;
     cursor: pointer;
 }
+
 .inner{
-    color:  rgb(67, 213, 226);
+    color: #8FE3F9;
+    font-size: 16px;
 }
 
 .download-btn:hover{
@@ -86,12 +87,12 @@ header {
 .what-btn {
     background-color: rgb(150, 88, 164);
     border-radius: 20px;
-    width: 123px;
+    width: 139px;
     height: 40px;
     border: 0px;
-    color: white;
-    font-weight: bold;
-    font-family: 'Red Hat Display';font-size: 14px;
+    color: #ffffff;
+    font-weight: 900;
+    font-family: 'Red Hat Display';font-size: 16px;
     margin-left: 15px;
     cursor: pointer;
 }
@@ -99,7 +100,7 @@ header {
     background-color: rgb(233, 164, 248);
 }
 
-@media screen and (max-width: 535px) {
+@media screen and (min-width: 300px) and (max-width: 821px) {
 
     .head-text {
         display: none;
@@ -127,15 +128,17 @@ main {
 
 }
 
-.number1 {
+.number1{
     background-color: #fafafa;
     width: 25px;
     height: 23px;
-    border-radius: 30px;
-    text-align: center;
-    box-shadow: 0px 1px 5px rgba(0,0,0,0.9);
-    padding-top: 2px;
-
+    border: 1px solid rgba(135, 135, 157, 0.25);
+    border-radius: 29px;
+    text-align: center;    
+    padding-top: 5px;
+    /* margin-top: 10px; */
+    padding-bottom: 0px;
+    color: #87879D;
 }
 
 .number1-con {
@@ -143,6 +146,7 @@ main {
     justify-content: center;
     padding-top: 170px;
     padding-bottom: 60px;
+    
 }
 
 div.head-text-hidden{
@@ -152,11 +156,18 @@ div.head-text-hidden{
     font-family: 'Red Hat Display';font-size: 18px;    
 
 }
-@media screen and (min-width: 418px) {
+/* @media screen and (min-width: 418px) {
     div.head-text-hidden{
         display: none;
     }
-}
+} */
+
+@media screen and (min-width: 911px) {
+    div.head-text-hidden{
+        display: none;
+    }
+} 
+
 
 .four-images {
     display: flex;
@@ -212,20 +223,18 @@ section{
 
 /* Main body ends here.... */
 
-
-
 .number2{
-    background-color: white;
+    background: #FAFAFA;
     display: flex;
     width: 29px;
     justify-content: center;
     padding-top: 4px;
     height: 25px;
-    border-radius: 30px;
+    border-radius: 29px;
     text-align: center;
-    font-size: 15px;
+    font-size: 16px;
     padding-bottom: 0px;
-    box-shadow: 0px 1px 5px rgba(0,0,0,0.7);
+    border: 1px solid rgba(135, 135, 157, 0.25);
     margin-bottom: -12px;    
     z-index: 2;
 }
@@ -248,10 +257,11 @@ footer {
 }
 .footer-section{
     grid-area: left;
-    width: 36vw;
+    width: 32vw;
     display: flex;
     justify-content: center;
     align-items: center;
+    /* text-align: center; */
     color: white;
     font-family: 'Red Hat Display';font-size: 33px;
     font-weight: bold;
@@ -262,25 +272,29 @@ footer {
 
 .footer-section2{
     grid-area: middle;
-    width: 28vw;
+    width: 34vw;
     display: flex;
     justify-content: center;
     align-items: center;
-    color: white;
-    font-family: 'Red Hat Display';font-size: 14px;
+    /* text-align: center; */
+    color: #fafafa;
+    font-family: 'Red Hat Display';font-size: 16px;
 }
 
 #foooter-text2{
     padding: 10px 70px 10px 70px;
+    line-height: 26px;
+    font-style: normal;
 }
 
 .footer-section3{
     grid-area: right;
-    width: 36vw;
+    width: 33vw;
     padding-bottom: 30px;
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
     font-family: 'Red Hat Display';
 }
 
@@ -296,12 +310,12 @@ footer {
 
 .download-btn2 {
     background-color:  rgb(150, 88, 164);
-    border-radius: 18px;
-    width: 115px;
+    border-radius: 29px;
+    width: 193px;
     height: 35px;
     border: 0;
     color: white;
-    font-size: 15px; font-family:'Red Hat Display';
+    font-size: 16px; font-family:'Red Hat Display';
 }
 
 .download-btn2:hover{
@@ -309,15 +323,24 @@ footer {
 }
 
 
-@media (max-width: 600px) {
+@media screen and (min-width: 300px) and (max-width: 821px) {
     .footer-hero {
     grid-template-areas: 
     'left left left left left left'
     'middle middle middle middle middle middle'
     'right right right right right right';
     }
-    .footer-section, .footer-section2, .footer-section3{
+    .footer-section, .footer-section2, .footer-section3 {
         width: 100vw;
+        text-align: center;
     }
 
 }
+
+.download-con{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+}
+
