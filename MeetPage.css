@@ -131,22 +131,21 @@ main {
 .number1{
     background-color: #fafafa;
     width: 25px;
-    height: 23px;
+    height: 24px;
     border: 1px solid rgba(135, 135, 157, 0.25);
     border-radius: 29px;
     text-align: center;    
     padding-top: 5px;
-    /* margin-top: 10px; */
     padding-bottom: 0px;
     color: #87879D;
+    z-index: 2;
 }
 
 .number1-con {
     display: flex;
     justify-content: center;
-    padding-top: 170px;
-    padding-bottom: 60px;
-    
+    padding-top: 140px;
+    padding-bottom: 60px;    
 }
 
 div.head-text-hidden{
